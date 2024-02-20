@@ -101,7 +101,9 @@ const app = Vue.createApp({
         PredecirResistenciaTipo1() {
             this.SACargando()
             this.response = '';
-            const url = 'http://127.0.0.1:5000/api/PredecirResistenciaTipo1/';
+            //const url = 'http://127.0.0.1:5000/api/PredecirResistenciaTipo1/';
+            
+            const url = 'https://alexandergz24.github.io/api/PredecirResistenciaTipo1/';
 
             // Construir objeto con los datos
             const data = {
@@ -154,7 +156,9 @@ const app = Vue.createApp({
         PredecirResistenciaLC3() {
             this.SACargando()
             this.response = '';
-            const url = 'http://127.0.0.1:5000/api/PredecirResistenciaLC3/';
+            //const url = 'http://127.0.0.1:5000/api/PredecirResistenciaLC3/';
+
+            const url = 'https://alexandergz24.github.io/api/PredecirResistenciaTipo1//api/PredecirResistenciaLC3/';
 
             // Construir objeto con los datos
             const data = {
