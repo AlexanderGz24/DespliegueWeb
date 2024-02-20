@@ -1,0 +1,47 @@
+.fade-enter-active,
+        .fade-leave-active {
+            transition: opacity .5s
+        }
+
+        .fade-enter,
+        .fade-leave-to {
+            opacity: 0
+        }
+
+        #respuesta {
+            position: relative;
+        }
+
+        .loading {
+            position: relative;
+        }
+
+        #respuesta.loading textarea {
+            background-color: rgba(126, 113, 113, 0.2);
+            /* Puedes ajustar el color y la opacidad según tus preferencias */
+        }
+
+        #loadingRespuesta {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+        }
+
+        .colored-button {
+            background-color: rgba(142, 227, 182, 1);
+            /* Cambia el color que desees */
+            color: white;
+            /* Cambia el color del texto si es necesario */
+        }
+
+        #app {
+            box-sizing: border-box;
+            padding: 25px;
+        }
+
+        .div-cerrado-rectangulo {
+            border: 2px solid red;
+            /* Define un borde rojo */
+            padding: 10px;
+            /* Añade un espacio de relleno dentro del rectángulo */
+        }
